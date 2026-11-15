@@ -36,9 +36,15 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
 - **Live**: the current lap, delta to your best, fuel and tyres while you drive.
 - **Overlays**: delta bar, inputs, fuel, fuel efficiency, tyres, radar, track map, lap times and damage, drawn over
   the sim while you're on track. Turn them on in the Overlays card on the Live page. The sim must run in
-  borderless or windowed mode. Press the hotkey shown there (Ctrl+Shift+O, or Ctrl+Alt+O if another program has
-  that) to move and resize them, then again to lock them. Each overlay is also a web page, for OpenKneeboard (VR)
-  or an OBS browser source.
+  borderless or windowed mode. Press the hotkey shown there (Ctrl+Shift+O by default; you can set your own,
+  including a button on your wheel) to move and resize them, then again to lock them. Each overlay is also a web
+  page, for an OBS browser source.
+- **Overlays in VR**: ApexLab draws the overlays straight into the headset in games that use OpenXR (for example
+  Le Mans Ultimate), with no other app needed. Tick *Show overlays in VR* on the Overlays card, then start the game.
+  Press Ctrl+Shift+F11 in the headset to place them (Space picks one, mouse moves, wheel or + / − resizes, M to turn
+  and tilt, Esc saves) and Ctrl+Shift+F12 to recentre them. Games on SteamVR's older OpenVR interface (often AMS2 and
+  RaceRoom) don't show them. **Anti-cheat:** the VR add-on isn't code-signed, and games with anti-cheat (iRacing uses
+  Easy Anti-Cheat) may refuse or flag it, so turn VR off before starting those.
 - **Sessions** and **Cars & Tracks**: every lap, lap analysis with track map, inputs and corner times, and a
   session summary with an optimal lap for the track temperature.
 - **Coaching**: a chat with Ted, your coach: where the time is going, corner by corner, one tip at a time.
