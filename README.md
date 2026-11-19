@@ -39,14 +39,16 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
   borderless or windowed mode. Press the hotkey shown there (Ctrl+Shift+O by default; you can set your own,
   including a button on your wheel) to move and resize them, then again to lock them. Each overlay is also a web
   page, for an OBS browser source.
-- **Overlays in VR**: ApexLab draws the overlays straight into the headset in games that use OpenXR (for example
-  Le Mans Ultimate), with no other app needed. Tick *Show overlays in VR* on the Overlays card, then start the game.
-  Press Ctrl+Shift+F11 in the headset to place them (Space picks one, mouse moves, wheel or + / − resizes, M to turn
-  and tilt, Esc saves) and Ctrl+Shift+F12 to recentre them. Games on SteamVR's older OpenVR interface (often AMS2 and
-  RaceRoom) don't show them. **Anti-cheat:** the VR add-on isn't code-signed, and games with anti-cheat (iRacing uses
-  Easy Anti-Cheat) may refuse or flag it, so turn VR off before starting those.
-- **Sessions** and **Cars & Tracks**: every lap, lap analysis with track map, inputs and corner times, and a
-  session summary with an optimal lap for the track temperature.
+- **Overlays in VR**: ApexLab draws the overlays straight into the headset, with no other app needed. Tick *Show
+  overlays in VR* on the Overlays card, then start the game. Games that use OpenXR (RaceRoom, and iRacing set to
+  OpenXR) get them from ApexLab's own add-on; games on SteamVR's OpenVR interface (Le Mans Ultimate, AMS2) get them as
+  SteamVR overlays while SteamVR is running. Press Ctrl+Shift+F11 in the headset to place them (Space picks one, mouse
+  moves, wheel or + / − resizes, M to turn and tilt, Esc saves) and Ctrl+Shift+F12 to recentre them.
+  **Anti-cheat:** the OpenXR add-on isn't code-signed, and games with anti-cheat (iRacing uses Easy Anti-Cheat) may
+  refuse or flag it, so turn VR off before starting those.
+- **Sessions** and **Cars & Tracks**: every lap, lap analysis with track map, inputs and corner times (brake and
+  throttle together or as separate charts against the reference), and a session summary with an optimal lap for the
+  track temperature.
 - **Coaching**: a chat with Ted, your coach: where the time is going, corner by corner, one tip at a time.
 - **Setup advice**: a chat with Scotty, your setup engineer. He reads your laps and suggests changes (for LMU he can
   write them to a new setup file). Tell him when something is at its limit ("the rear bar's already maxed") and
