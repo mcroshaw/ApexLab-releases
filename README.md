@@ -46,6 +46,9 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
   moves, wheel or + / − resizes, M to turn and tilt, Esc saves) and Ctrl+Shift+F12 to recentre them.
   **Anti-cheat:** the OpenXR add-on isn't code-signed, and games with anti-cheat (iRacing uses Easy Anti-Cheat) may
   refuse or flag it, so turn VR off before starting those.
+- **Sharing laps (Discord)**: press **Share** on any lap and ApexLab saves it as an `.apexlap` file in your Downloads;
+  drag it into a Discord chat. Got one from someone? Download it and drop it anywhere on ApexLab: it opens against
+  your best lap of the same car and track, and stays under *Compare with*.
 - **Sessions** and **Cars & Tracks**: every lap, lap analysis with track map, inputs and corner times (brake and
   throttle together or as separate charts against the reference), and a session summary with an optimal lap for the
   track temperature.
