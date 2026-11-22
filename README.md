@@ -40,12 +40,12 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
   including a button on your wheel) to move and resize them, then again to lock them. Each overlay is also a web
   page, for an OBS browser source.
 - **Overlays in VR**: ApexLab draws the overlays straight into the headset, with no other app needed. Tick *Show
-  overlays in VR* on the Overlays card, then start the game. Games that use OpenXR (RaceRoom, and iRacing set to
-  OpenXR) get them from ApexLab's own add-on; games on SteamVR's OpenVR interface (Le Mans Ultimate, AMS2) get them as
-  SteamVR overlays while SteamVR is running. Press Ctrl+Shift+F11 in the headset to place them (Space picks one, mouse
-  moves, wheel or + / − resizes, M to turn and tilt, Esc saves) and Ctrl+Shift+F12 to recentre them.
-  **Anti-cheat:** the OpenXR add-on isn't code-signed, and games with anti-cheat (iRacing uses Easy Anti-Cheat) may
-  refuse or flag it, so turn VR off before starting those.
+  overlays in VR* on the Overlays card, then start the game. OpenXR games without anti-cheat (RaceRoom) get them from
+  ApexLab's own add-on, drawn in the game. Everywhere else, including Le Mans Ultimate (in OpenXR or OpenVR mode) and
+  AMS2, they appear as SteamVR overlays while SteamVR is running. Press Ctrl+Shift+F11 in the headset to place them
+  (Space picks one, mouse moves, wheel or + / − resizes, M to turn and tilt, Esc saves) and Ctrl+Shift+F12 to
+  recentre them. **Anti-cheat:** the OpenXR add-on isn't code-signed yet, so games with Easy Anti-Cheat (LMU,
+  iRacing) block it and may flag it; turn VR off before starting iRacing if you're unsure.
 - **Sharing laps (Discord)**: press **Share** on any lap and ApexLab saves it as an `.apexlap` file in your Downloads;
   drag it into a Discord chat. Got one from someone? Download it and drop it anywhere on ApexLab: it opens against
   your best lap of the same car and track, and stays under *Compare with*.
