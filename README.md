@@ -52,6 +52,10 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
 - **Sessions** and **Cars & Tracks**: every lap, lap analysis with track map, inputs and corner times (brake and
   throttle together or as separate charts against the reference), and a session summary with an optimal lap for the
   track temperature.
+- **3D track view**: tick **3D** on the lap analysis track map to see your line and the reference on the track at its
+  real elevation. Drag to orbit, right-drag to pan, wheel to zoom; the corner buttons fly to each corner, and *Chase
+  cam* rides behind your car as you hover the charts. Heights are recorded from 0.1.42 on (iRacing: imported .ibt
+  files only), so older laps show flat.
 - **Coaching**: a chat with Ted, your coach: where the time is going, corner by corner, one tip at a time.
 - **Setup advice**: a chat with Scotty, your setup engineer. He reads your laps and suggests changes (for LMU he can
   write them to a new setup file). Tell him when something is at its limit ("the rear bar's already maxed") and
