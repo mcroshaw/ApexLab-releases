@@ -54,7 +54,9 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
   track temperature.
 - **Understeer / oversteer**: lap analysis has a *Balance* chart (+ understeer, − oversteer), an *Understeer /
   oversteer* colouring for the track map (2D and 3D) and a Balance column in the corner table for entry, mid-corner and
-  exit. Slides you caught show as full oversteer. It's for your own laps (it needs steering and yaw rate).
+  exit. Slides you caught show as full oversteer. It's for your own laps (it needs steering and yaw rate). Coaching
+  uses it to show where your typical laps push or step out more than your best, and Setup advice uses it to judge the
+  car's balance on entry, mid-corner and exit against its own neutral.
 - **3D track view**: tick **3D** on the lap analysis track map to see your line and the reference on the track at its
   real elevation. Drag to orbit, right-drag to pan, wheel to zoom; the corner buttons fly to each corner, and *Chase
   cam* rides behind your car as you hover the charts. Heights are recorded from 0.1.42 on (iRacing: imported .ibt
