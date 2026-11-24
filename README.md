@@ -57,10 +57,13 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
   exit. Slides you caught show as full oversteer. It's for your own laps (it needs steering and yaw rate). Coaching
   uses it to show where your typical laps push or step out more than your best, and Setup advice uses it to judge the
   car's balance on entry, mid-corner and exit against its own neutral.
-- **3D track view**: tick **3D** on the lap analysis track map to see your line and the reference on the track at its
-  real elevation. Drag to orbit, right-drag to pan, wheel to zoom; the corner buttons fly to each corner, and *Chase
-  cam* rides behind your car as you hover the charts. Heights are recorded from 0.1.42 on (iRacing: imported .ibt
-  files only), so older laps show flat.
+- **3D track view**: tick **3D** on the lap analysis track map to see your lap on the track at its real elevation,
+  with your throttle and braking (or speed, time gained or lost, car balance: pick under *Colour the lap by*) standing
+  up from the racing line as a coloured wall, and the reference as a faint blue wall. *Orbit*, *Follow the car* or
+  *Top-down*; press **Play** or drag the slider to drive the lap, with speed, pedals, height, slope, gap to the
+  reference and balance shown underneath. *Pop out* fills the screen. Drag to turn, right-drag to pan, wheel to zoom;
+  the corner buttons fly to each corner. Heights are recorded from 0.1.42 on (iRacing: imported .ibt files only), so
+  older laps show flat.
 - **Coaching**: a chat with Ted, your coach: where the time is going, corner by corner, one tip at a time.
 - **Setup advice**: a chat with Scotty, your setup engineer. He reads your laps and suggests changes (for LMU he can
   write them to a new setup file). Tell him when something is at its limit ("the rear bar's already maxed") and
