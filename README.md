@@ -64,7 +64,8 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
   reference and balance shown underneath. *Pop out* fills the screen. Drag to turn, right-drag to pan, wheel to zoom;
   the corner buttons fly to each corner. Heights are recorded from 0.1.42 on (iRacing: imported .ibt files only), so
   older laps show flat.
-- **Coaching**: a chat with Ted, your coach: where the time is going, corner by corner, one tip at a time.
+- **Coaching**: a chat with Ted, your coach: where the time is going, corner by corner, one tip at a time. Ted and Scotty both
+  leave out the first 3 laps of every session (out lap and tyre warm-up).
 - **Setup advice**: a chat with Scotty, your setup engineer. He reads your laps and suggests changes (for LMU he can
   write them to a new setup file). Tell him when something is at its limit ("the rear bar's already maxed") and
   he remembers it for that car and suggests something else.
