@@ -34,11 +34,16 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
 ## What's where
 
 - **Live**: the current lap, delta to your best, fuel and tyres while you drive.
-- **Overlays**: delta bar, inputs, fuel, fuel efficiency, tyres, radar, track map, lap times and damage, drawn over
+- **Overlays**: delta bar, inputs, fuel, fuel efficiency, tyres, radar, track map, lap times, damage and ride height, drawn over
   the sim while you're on track. Turn them on in the Overlays card on the Live page. The sim must run in
   borderless or windowed mode. Press the hotkey shown there (Ctrl+Shift+O by default; you can set your own,
   including a button on your wheel) to move and resize them, then again to lock them. Each overlay is also a web
   page, for an OBS browser source.
+- **Ride height overlay**: two modes, picked from its cog. *Setup builder* shows front and rear clearance (now, at
+  rest in the pits, lowest this lap), how close each corner is to the ground, and the car's pitch and roll. *Speed
+  states* shows the speed band, how much of each tyre's grip is in use with a near-limit warning, and how much of the
+  grip is aero and how much mechanical (from the tyre forces and downforce in LMU, the downforce in RaceRoom, and
+  learned as you drive elsewhere).
 - **Overlays in VR**: ApexLab draws the overlays straight into the headset, with no other app needed. Tick *Show
   overlays in VR* on the Overlays card, then start the game. OpenXR games without anti-cheat (RaceRoom) get them from
   ApexLab's own add-on, drawn in the game. Everywhere else, including Le Mans Ultimate (in OpenXR or OpenVR mode) and
