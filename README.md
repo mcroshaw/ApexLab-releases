@@ -74,6 +74,8 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
   leave out the first 3 laps of every stint (out lap and tyre warm-up, at the start and after every pit stop). Each
   tip says which driving skill it trains, foundations first (Level 1 safety and consistency, then Level 2 balance and
   speed, then Level 3 precision), and each corner shows how much of the grip you use on entry, mid-corner and exit.
+  Ted also reads the shape of each corner (consistency lap to lap, the gap between brake and throttle, how much of
+  the turning is done before you accelerate), and Scotty says what to try in the driving before changing the setup.
 - **Setup advice**: a chat with Scotty, your setup engineer. He reads your laps and suggests changes (for LMU he can
   write them to a new setup file). Tell him when something is at its limit ("the rear bar's already maxed") and
   he remembers it for that car and suggests something else.
