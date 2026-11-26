@@ -41,9 +41,10 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
   page, for an OBS browser source.
 - **Ride height overlay**: two modes, picked from its cog. *Setup builder* shows front and rear clearance (now, at
   rest in the pits, lowest this lap), how close each corner is to the ground, and the car's pitch and roll. *Speed
-  states* shows the speed band, how much of each tyre's grip is in use with a near-limit warning, and how much of the
-  grip is aero and how much mechanical (from the tyre forces and downforce in LMU, the downforce in RaceRoom, and
-  learned as you drive elsewhere).
+  states* shows the speed band, how much of each tyre's grip is in use (the circle is the limit: the dot heads out to
+  it, growing and going green, amber, red) with a near-limit warning, and how much of the grip is aero and how much
+  mechanical. LMU shares each tyre's forces; in the other sims ApexLab learns the car's grip as you drive and shares it
+  out to the tyres by load transfer and balance.
 - **Overlays in VR**: ApexLab draws the overlays straight into the headset, with no other app needed. Tick *Show
   overlays in VR* on the Overlays card, then start the game. OpenXR games without anti-cheat (RaceRoom) get them from
   ApexLab's own add-on, drawn in the game. Everywhere else, including Le Mans Ultimate (in OpenXR or OpenVR mode) and
@@ -70,7 +71,9 @@ No sim to hand? Start it with `ApexLab.exe --demo` for a simulated car on a test
   the corner buttons fly to each corner. Heights are recorded from 0.1.42 on (iRacing: imported .ibt files only), so
   older laps show flat.
 - **Coaching**: a chat with Ted, your coach: where the time is going, corner by corner, one tip at a time. Ted and Scotty both
-  leave out the first 3 laps of every stint (out lap and tyre warm-up, at the start and after every pit stop).
+  leave out the first 3 laps of every stint (out lap and tyre warm-up, at the start and after every pit stop). Each
+  tip says which driving skill it trains, foundations first (Level 1 safety and consistency, then Level 2 balance and
+  speed, then Level 3 precision), and each corner shows how much of the grip you use on entry, mid-corner and exit.
 - **Setup advice**: a chat with Scotty, your setup engineer. He reads your laps and suggests changes (for LMU he can
   write them to a new setup file). Tell him when something is at its limit ("the rear bar's already maxed") and
   he remembers it for that car and suggests something else.
